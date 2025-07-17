@@ -1,0 +1,64 @@
+#licenciatura-container {
+  border: 3px solid #af3333;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff8f5;
+}
+
+#tecnica-container {
+  border: 3px solid #e68a00;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff3e0;
+}
+
+.columns-container {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+}
+
+.columna {
+  flex: 0 0 250px;
+  background: #ffe8cc;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #d9b88a;
+}
+
+.columna h2 {
+  margin-top: 0;
+  color: #b25900;
+  text-align: center;
+}
+
+/* Barras de progreso */
+.barra-progreso-container {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 10px;
+  margin: 10px 0;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.barra-progreso {
+  height: 100%;
+  background-color: #af3333;
+  width: 0%;
+  transition: width 0.4s ease;
+}
+
+.texto-progreso {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-weight: bold;
+  color: #6e1a1a;
+  line-height: 20px;
+}
